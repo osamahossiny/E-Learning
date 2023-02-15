@@ -1,0 +1,37 @@
+.vr {
+    margin-left: 10px;
+}
+
+.filters {
+    margin: 85px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.filters .h5 {
+    margin-bottom: 10px;
+}
+
+.instructorCourses .h3 {
+    margin: 15px 0;
+}
+
+.filters .checkbox-with-label {
+    display: flex;
+}
+
+.filters button {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.filters input {
+    width: 100%;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

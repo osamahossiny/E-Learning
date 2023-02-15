@@ -1,0 +1,73 @@
+nav.myNav {
+    background-color: #A00407;
+    height: 70px;
+    display: flex;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+    text-transform: capitalize;
+}
+
+nav.myNav ul {
+    list-style: none;
+}
+
+nav.myNav ul li {
+    display: inline-block;
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+nav.myNav ul li img {
+    height: 70px;
+    width: 175px;
+}
+
+.right {
+    margin: auto 20px auto auto;
+}
+
+nav.myNav ul li input {
+    align-items: center;
+    color: #979797;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 2px 15px 2px 15px;
+    width: 400px;
+}
+
+.searchIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #979797;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.search {
+    position: relative;
+}
+
+.borderHover:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.dropdownItem {
+    --bs-dropdown-link-active-bg: #E00018;
+}
+
+.countryDropdownMenu {
+    height: 600px;
+    overflow-y: scroll;
+    border-radius: 0;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}

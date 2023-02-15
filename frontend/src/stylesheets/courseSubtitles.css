@@ -1,0 +1,41 @@
+.accordion-item {
+    --bs-accordion-active-color: black;
+    /* border: none; */
+    /* border-bottom: 0.5px solid #89969F; */
+}
+
+.accordion-item .accordion-button {
+    background-color: #fff;
+    box-shadow: none;
+    /* border: none; */
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.lesson-summary {
+    font-family: poppins;
+    font-size: 16px;
+    width: 832px
+}
+
+.lesson-summary.readings {
+    margin-top: 15px;
+    width: 940px;
+}
+
+.accordion-button::after {
+    filter: brightness(0) saturate(100%);
+}
+
+.course-subtitles .MuiDrawer-paper {
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
